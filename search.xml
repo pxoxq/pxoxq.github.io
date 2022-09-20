@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Hexo 部署时报错 Error: Spawn failed</title>
+      <link href="/pages/hexo/error-spawn-failed.html"/>
+      <url>/pages/hexo/error-spawn-failed.html</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png"></h2><h2 id="方法1、修改配置"><a href="#方法1、修改配置" class="headerlink" title="方法1、修改配置"></a>方法1、修改配置</h2><ul><li>打开博客主目录配置文件 <code>__config.yml</code></li><li>修改 <code>deploy.repo</code> 为如下格式：<ul><li><code>git@github.com:{用户名}/{用户名}.github.io</code></li></ul><p> </p></li><li>重新执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code><br><img src="https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png"></li></ul><hr><h2 id="方法2、删除-deplot-git文件夹"><a href="#方法2、删除-deplot-git文件夹" class="headerlink" title="方法2、删除.deplot_git文件夹"></a>方法2、删除<code>.deplot_git</code>文件夹</h2><ul><li>删除<code>.deplot_git</code>文件夹</li><li><strong>git bash</strong> 中 <code>git config --global core.autocrlf false</code></li><li>重新执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 配置 </tag>
+            
+            <tag> debug </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一个油猴脚本</title>
       <link href="/pages/tempermonkey/doc-and-first.html"/>
       <url>/pages/tempermonkey/doc-and-first.html</url>
@@ -445,9 +474,9 @@
       
         <tags>
             
-            <tag> hexo </tag>
-            
             <tag> 指令 </tag>
+            
+            <tag> hexo </tag>
             
         </tags>
       

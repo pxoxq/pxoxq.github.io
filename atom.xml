@@ -6,7 +6,7 @@
   <link href="http://pxoxq.github.io/atom.xml" rel="self"/>
   
   <link href="http://pxoxq.github.io/"/>
-  <updated>2022-09-20T02:51:05.837Z</updated>
+  <updated>2022-09-20T03:15:05.467Z</updated>
   <id>http://pxoxq.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo 部署时报错 Error: Spawn failed</title>
+    <link href="http://pxoxq.github.io/pages/hexo/error-spawn-failed"/>
+    <id>http://pxoxq.github.io/pages/hexo/error-spawn-failed</id>
+    <published>2022-09-20T03:03:01.000Z</published>
+    <updated>2022-09-20T03:15:05.467Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png&quot;&gt;&lt;/h2&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="http://pxoxq.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
+    
+    <category term="配置" scheme="http://pxoxq.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="debug" scheme="http://pxoxq.github.io/tags/debug/"/>
+    
+  </entry>
   
   <entry>
     <title>我的第一个油猴脚本</title>
@@ -483,9 +512,9 @@
     <category term="hexo" scheme="http://pxoxq.github.io/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
-    
     <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
+    
+    <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
     
   </entry>
   

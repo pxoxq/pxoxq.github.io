@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hexo自定义文章访问链接格式, pxoxq">
+    <meta name="keywords" content="Hexo 部署时报错 Error: Spawn failed, pxoxq">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo自定义文章访问链接格式 | pxoxq</title>
+    <title>Hexo 部署时报错 Error: Spawn failed | pxoxq</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -326,12 +326,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hexo自定义文章访问链接格式</h1>
+                    <h1 class="description center-align post-title">Hexo 部署时报错 Error: Spawn failed</h1>
                 </div>
             </div>
         </div>
@@ -455,6 +455,10 @@
                                 <span class="chip bg-color">配置</span>
                             </a>
                         
+                            <a href="/tags/debug/">
+                                <span class="chip bg-color">debug</span>
+                            </a>
+                        
                     </div>
                     
                 </div>
@@ -476,28 +480,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-09-16
+                    2022-09-20
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-09-16
+                    2022-09-20
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    935
+                    84
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    1 分
                 </div>
                 
 
@@ -520,99 +524,21 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p><img src="https://img-blog.csdnimg.cn/2b65092fb6e64937a22f462e26226fc9.png"></p>
-<hr>
-<h2 id="为啥要改嘞？"><a href="#为啥要改嘞？" class="headerlink" title="为啥要改嘞？"></a>为啥要改嘞？</h2><blockquote>
-<p>默认的文章访问链路径，应该是这样的：<code>2022/09/16/子文件夹/文章标题</code>，完整链接类似：<code>https://pxoxq.github.io/2022/09/16/python/use-pymongo</code>。这种默认风格的话，很清楚的展示了文章的写作日期、子文件夹信息等。</p>
-<blockquote>
-<p>其实访问路径的配置，跟生成的静态文件挂钩，如果配置成这样的“日期、文件名类型”最终生成静态页面时，也会按照这样的规则生成对应的文件目录，例如：<code>2022/09/16/子文件夹/文章标题/index.html</code>。【这个是题外话，静态文件怎么样分布，其实并不影响】</p>
-</blockquote>
-<p>个人来说，不太喜欢这样的风格，一串数字在路径里。比较理想的风格是：<code>类别/文章标题</code>，例如：<code>python/use-pymongo</code>，为了不跟其他导航界面冲突，再在开头加个<code>pages</code>，<code>pages/python/use-pymongo</code>.</p>
-</blockquote>
-<ul>
-<li>说到底，就是不喜欢默认风格的文章访问路径的格式。<br><font color="red">×</font> <code>https://pxoxq.github.io/2022/09/16/python/use-pymongo</code><br><font color="green">√</font> <code>https://pxoxq.github.io/pages/python/use-pymongo</code></li>
+                <h2 id=""><a href="#" class="headerlink" title=""></a><img src="https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png"></h2><h2 id="方法1、修改配置"><a href="#方法1、修改配置" class="headerlink" title="方法1、修改配置"></a>方法1、修改配置</h2><ul>
+<li>打开博客主目录配置文件 <code>__config.yml</code></li>
+<li>修改 <code>deploy.repo</code> 为如下格式：<ul>
+<li><code>git@github.com:{用户名}/{用户名}.github.io</code></li>
 </ul>
-<h2 id="一、配置项介绍"><a href="#一、配置项介绍" class="headerlink" title="一、配置项介绍"></a>一、配置项介绍</h2><blockquote>
-<p>参考官方网址：<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration#%E7%BD%91%E5%9D%80">https://hexo.io/zh-cn/docs/configuration#%E7%BD%91%E5%9D%80</a></p>
-<blockquote>
-<p>主要参考： 网址、永久链接两个模块</p>
-</blockquote>
-</blockquote>
-<h3 id="1-1-官网说明"><a href="#1-1-官网说明" class="headerlink" title="1-1 官网说明"></a>1-1 官网说明</h3><p><img src="https://img-blog.csdnimg.cn/27e5a1222f0e4ea6bc758b9c9cee16ce.png"></p>
-<h3 id="1-2-一些常用的变量"><a href="#1-2-一些常用的变量" class="headerlink" title="1-2 一些常用的变量"></a>1-2 一些常用的变量</h3><p><span id="b"></span><br><img src="https://img-blog.csdnimg.cn/894c0e0f660c407d904a3dd955e60bd8.png"></p>
-<h2 id="二、具体配置"><a href="#二、具体配置" class="headerlink" title="二、具体配置"></a>二、具体配置</h2><h3 id="2-1-url"><a href="#2-1-url" class="headerlink" title="2-1 url"></a>2-1 url</h3><p>我的是部署到Github上，所以此处配置的就是Github主页的默认地址：<code>https://pxoxq.github.io</code></p>
-<h3 id="2-2-permalink-pretty-urls-trailing-html"><a href="#2-2-permalink-pretty-urls-trailing-html" class="headerlink" title="2-2 permalink + pretty_urls.trailing_html"></a>2-2 permalink + pretty_urls.trailing_html</h3><ul>
-<li>permalink:<ul>
-<li>文章链接格式，也就是 文章访问链接 的模板：</li>
-<li>变量的话可以参考第一部分的内容。<a href="#b">变量</a></li>
-<li>我的配置是：<code>pages/:category/:name.html</code><br>   简单说明一下 :带个前缀 pages；类别/文件名。</li>
-</ul>
+<p> 	</p>
 </li>
-<li>pretty_urls.trailing_html<ul>
-<li>配置为<code>false</code>去除链接尾部的 <code>.html</code></li>
-</ul>
-</li>
+<li>重新执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code><br><img src="https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png"></li>
 </ul>
 <hr>
-<p>这么一波配置，分类为<code>Git</code>文件名为<code>gitcz.md</code>的文章访问链接就如下图所示：<br><br><img src="https://img-blog.csdnimg.cn/806c7a7136d3497c84dade3a0ade91d9.png"></p>
-<h2 id="三、文档目录具体对应【更直观】"><a href="#三、文档目录具体对应【更直观】" class="headerlink" title="三、文档目录具体对应【更直观】"></a>三、文档目录具体对应【更直观】</h2><h3 id="3-1-原-md-文章"><a href="#3-1-原-md-文章" class="headerlink" title="3-1 原 .md 文章"></a>3-1 原 .md 文章</h3><ul>
-<li>文章都放在 <code>_post</code>目录下</li>
-<li>因为配置 <code>permalink</code>时，只用到文件名，所以<code>_post</code>下的子目录并不影响最终生成的静态文件的具体分布。</li>
-<li>注意文件头的<code>categories</code>项，对应<code>:category</code>变量。<ul>
-<li>如果地址处配置了该变量，那么写文章时，注意<code>categories</code>设置为单值。</li>
-<li>也就是说，一篇文章只有一个分类，如果想有多个标识，那么可以配置到 <code>tags</code>标签项，为文章添加多个标签。</li>
+<h2 id="方法2、删除-deplot-git文件夹"><a href="#方法2、删除-deplot-git文件夹" class="headerlink" title="方法2、删除.deplot_git文件夹"></a>方法2、删除<code>.deplot_git</code>文件夹</h2><ul>
+<li>删除<code>.deplot_git</code>文件夹</li>
+<li><strong>git bash</strong> 中 <code>git config --global core.autocrlf false</code></li>
+<li>重新执行<code>hexo clean</code> <code>hexo g</code> <code>hexo d</code></li>
 </ul>
-</li>
-<li><img src="https://img-blog.csdnimg.cn/7b9567f92e844fb19414f4b684ab26e4.png"></li>
-</ul>
-<h3 id="3-2-html-静态页面"><a href="#3-2-html-静态页面" class="headerlink" title="3-2 .html 静态页面"></a>3-2 .html 静态页面</h3><ul>
-<li><code>hexo g</code> 以后生成的静态目录如下</li>
-<li>可见按配置生成了 <code>pages/类别/文章名.html</code> 的静态文件</li>
-<li>最终部署到Github，就是按着这个目录进行访问。<br><img src="https://img-blog.csdnimg.cn/d1d82763af1c4c08bd09e39354499300.png"></li>
-</ul>
-<h2 id="四、小技巧分享"><a href="#四、小技巧分享" class="headerlink" title="四、小技巧分享"></a>四、小技巧分享</h2><ul>
-<li>VSCode <code>md</code> 文档文件头用户代码片段配置：</li>
-</ul>
-<ol>
-<li>设置 ==》 配置用户代码片段<br><img src="https://img-blog.csdnimg.cn/d69d3b0cf80d4dd99836a67b5fdf9eb3.png"></li>
-<li>选择全局或者是该文件夹下的代码片段<blockquote>
-<p>Blog文件夹下的就是我的博客主页工程文件</p>
-</blockquote>
-</li>
-</ol>
-<p><img src="https://img-blog.csdnimg.cn/e650f519da8b4f8b9be37c926b90bdcb.png"></p>
-<ol start="3">
-<li>给改片段起个名<blockquote>
-<p>可以设置一个可读性ok的名字，例如：hexo_md_head</p>
-</blockquote>
-</li>
-</ol>
-<p><img src="https://img-blog.csdnimg.cn/9760ef5c253a4837ba0b2f1df2691c5c.png"></p>
-<ol start="4">
-<li>具体配置：</li>
-</ol>
-<ul>
-<li>body说明：<ul>
-<li>值可以是列表，每一个元素为一行</li>
-<li>$1 代表插入后光标的第一个位置，以此类推</li>
-<li>$0 代表光标最后的位置<ul>
-<li>如图中设置了四个光标位置，自动插入后先到第一个位置，然后输入title内容，按下<code>Tab</code>后切换到$2……</li>
-</ul>
-</li>
-<li>$CURRENT_YEAR……等属于内置变量，具体参考<ul>
-<li>官网（外网）：<a target="_blank" rel="noopener" href="https://code.visualstudio.com/docs/editor/userdefinedsnippets">https://code.visualstudio.com/docs/editor/userdefinedsnippets</a></li>
-<li>或者这里（CSDN文章）：<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_45020818/article/details/126896904">https://blog.csdn.net/qq_45020818/article/details/126896904</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/9075ce120c1e4603bc558fb2d8d252cc.png"><br>5. 于是，在新新建的 .md 文档中，输入 <code>tt</code> 后敲回车，就可以自动插入内容：</p>
-<ul>
-<li>注意看之前配置的四个光标位置。</li>
-</ul>
-<p><img src="https://img-blog.csdnimg.cn/83e39ab95f1d4a6e9e4df8f4aeee6eda.png"></p>
-<p><img src="https://img-blog.csdnimg.cn/e602036d3b0a4291b775f4a0985706f7.png"></p>
 
                 
             </div>
@@ -639,7 +565,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://pxoxq.github.io/pages/hexo/confurl">http://pxoxq.github.io/pages/hexo/confurl</a>
+                    <a href="http://pxoxq.github.io/pages/hexo/error-spawn-failed">http://pxoxq.github.io/pages/hexo/error-spawn-failed</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -683,6 +609,10 @@
                             
                                 <a href="/tags/%E9%85%8D%E7%BD%AE/">
                                     <span class="chip bg-color">配置</span>
+                                </a>
+                            
+                                <a href="/tags/debug/">
+                                    <span class="chip bg-color">debug</span>
                                 </a>
                             
                         </div>
@@ -874,85 +804,28 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/pages/vscode/user-snippets">
+                <a href="/pages/hexo/error-spawn-failed">
                     <div class="card-image">
                         
+                        <img src="https://img-blog.csdnimg.cn/f1adf491ec514261b308b4c757f2d8de.png" class="responsive-img" alt="Hexo 部署时报错 Error: Spawn failed">
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="VSCode配置用户代码片段+相关内置变量整理">
-                        
-                        <span class="card-title">VSCode配置用户代码片段+相关内置变量整理</span>
+                        <span class="card-title">Hexo 部署时报错 Error: Spawn failed</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            记录一下配置VSCode用户代码片段的一般过程，以及从官网Copy了用到的内置变量进行整理。
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-09-16
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/vscode/" class="post-category">
-                                    vscode
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E9%85%8D%E7%BD%AE/">
-                        <span class="chip bg-color">配置</span>
-                    </a>
-                    
-                    <a href="/tags/vscode/">
-                        <span class="chip bg-color">vscode</span>
-                    </a>
-                    
-                    <a href="/tags/%E5%BF%AB%E9%80%9F%E5%BC%80%E5%8F%91/">
-                        <span class="chip bg-color">快速开发</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/pages/hexo/basicuse">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="hexo+Github 快速搭建个人博客">
-                        
-                        <span class="card-title">hexo+Github 快速搭建个人博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            通过hexo+Github实现快速搭建出个人博客，内容包含了安装、配置、部署、主题的使用等方面。
+                            Hexo 部署时报‘Error: Spawn failed’错误的两种解决办法
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-20
                             </span>
                         <span class="publish-author">
                             
@@ -966,6 +839,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -973,12 +847,64 @@
                         <span class="chip bg-color">hexo</span>
                     </a>
                     
-                    <a href="/tags/Github/">
-                        <span class="chip bg-color">Github</span>
+                    <a href="/tags/%E9%85%8D%E7%BD%AE/">
+                        <span class="chip bg-color">配置</span>
                     </a>
                     
-                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
-                        <span class="chip bg-color">个人博客</span>
+                    <a href="/tags/debug/">
+                        <span class="chip bg-color">debug</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/pages/tempermonkey/doc-and-first">
+                    <div class="card-image">
+                        
+                        <img src="https://img-blog.csdnimg.cn/f38bf1b90fdc47d6bac61b61097a0864.png" class="responsive-img" alt="我的第一个油猴脚本">
+                        
+                        <span class="card-title">我的第一个油猴脚本</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            有了一个简单的需求，有没有找到现成的脚本，于是就试着写了一个油猴脚本。同时也贴了官方文档。
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-09-20
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/tempermonkey/" class="post-category">
+                                    tempermonkey
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/tempermonkey/">
+                        <span class="chip bg-color">tempermonkey</span>
+                    </a>
+                    
+                    <a href="/tags/%E8%84%9A%E6%9C%AC/">
+                        <span class="chip bg-color">脚本</span>
                     </a>
                     
                 </div>
