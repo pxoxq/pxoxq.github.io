@@ -6,7 +6,7 @@
   <link href="http://pxoxq.github.io/atom.xml" rel="self"/>
   
   <link href="http://pxoxq.github.io/"/>
-  <updated>2022-09-20T03:15:05.467Z</updated>
+  <updated>2022-09-25T06:09:46.743Z</updated>
   <id>http://pxoxq.github.io/</id>
   
   <author>
@@ -15,6 +15,154 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Vue3中路由的配置与使用</title>
+    <link href="http://pxoxq.github.io/pages/vue/vue3-router"/>
+    <id>http://pxoxq.github.io/pages/vue/vue3-router</id>
+    <published>2022-09-25T06:06:23.000Z</published>
+    <updated>2022-09-25T06:09:46.743Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/e5d7bcc37b854fd0b4a15f026d5a863f.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、安装-vue-router&quot;&gt;&lt;a href=&quot;#一、安装-vue-router&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://pxoxq.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue3" scheme="http://pxoxq.github.io/tags/Vue3/"/>
+    
+    <category term="路由" scheme="http://pxoxq.github.io/tags/%E8%B7%AF%E7%94%B1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue3中Vuex的使用</title>
+    <link href="http://pxoxq.github.io/pages/vue/vue3-use-vuex"/>
+    <id>http://pxoxq.github.io/pages/vue/vue3-use-vuex</id>
+    <published>2022-09-25T06:04:10.000Z</published>
+    <updated>2022-09-25T06:06:02.279Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/d2b4aea0d0db4280b34a0159b218e53e.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、安装vuex&quot;&gt;&lt;a href=&quot;#一、安装vuex&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://pxoxq.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue3" scheme="http://pxoxq.github.io/tags/Vue3/"/>
+    
+    <category term="Vuex" scheme="http://pxoxq.github.io/tags/Vuex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue3中axios的使用与封装</title>
+    <link href="http://pxoxq.github.io/pages/vue/vue3-use-axios"/>
+    <id>http://pxoxq.github.io/pages/vue/vue3-use-axios</id>
+    <published>2022-09-25T06:00:31.000Z</published>
+    <updated>2022-09-25T06:03:31.468Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/d6e25e7c82d74c349294384aea41f3b7.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、安装axios&quot;&gt;&lt;a href=&quot;#一、安装axios&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://pxoxq.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue3" scheme="http://pxoxq.github.io/tags/Vue3/"/>
+    
+    <category term="axios" scheme="http://pxoxq.github.io/tags/axios/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue3事件总线mitt使用总结</title>
+    <link href="http://pxoxq.github.io/pages/vue/use-mitt"/>
+    <id>http://pxoxq.github.io/pages/vue/use-mitt</id>
+    <published>2022-09-25T05:54:05.000Z</published>
+    <updated>2022-09-25T05:59:46.241Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/446cbf19998648a2a7b2936a17ea7148.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、安装-mitt&quot;&gt;&lt;a href=&quot;#一、安装-mitt&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Vue" scheme="http://pxoxq.github.io/categories/Vue/"/>
+    
+    
+    <category term="Vue3" scheme="http://pxoxq.github.io/tags/Vue3/"/>
+    
+    <category term="mitt" scheme="http://pxoxq.github.io/tags/mitt/"/>
+    
+    <category term="事件总线" scheme="http://pxoxq.github.io/tags/%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>前端开发常用网站总结</title>
+    <link href="http://pxoxq.github.io/pages/front-end/usefull-websites"/>
+    <id>http://pxoxq.github.io/pages/front-end/usefull-websites</id>
+    <published>2022-09-25T05:51:26.000Z</published>
+    <updated>2022-09-25T05:53:44.787Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/1e112981cbac4ced9e1c72e1d7dd721d.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;1、MDN-web-docs&quot;&gt;&lt;a href=&quot;#1、MDN-web-docs&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="front-end" scheme="http://pxoxq.github.io/categories/front-end/"/>
+    
+    
+    <category term="前端" scheme="http://pxoxq.github.io/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+    <category term="资源" scheme="http://pxoxq.github.io/tags/%E8%B5%84%E6%BA%90/"/>
+    
+    <category term="网站推荐" scheme="http://pxoxq.github.io/tags/%E7%BD%91%E7%AB%99%E6%8E%A8%E8%8D%90/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo 部署时报错 Error: Spawn failed</title>
@@ -390,9 +538,9 @@
     
     <category term="nodejs" scheme="http://pxoxq.github.io/tags/nodejs/"/>
     
-    <category term="踩坑" scheme="http://pxoxq.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
-    
     <category term="安装" scheme="http://pxoxq.github.io/tags/%E5%AE%89%E8%A3%85/"/>
+    
+    <category term="踩坑" scheme="http://pxoxq.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
     
   </entry>
   
@@ -448,73 +596,6 @@
     <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
     
     <category term="Git" scheme="http://pxoxq.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>研究生期间课件、电子教材、笔记汇总</title>
-    <link href="http://pxoxq.github.io/pages/resource/yanresource"/>
-    <id>http://pxoxq.github.io/pages/resource/yanresource</id>
-    <published>2022-09-07T07:00:00.000Z</published>
-    <updated>2022-09-13T08:02:20.988Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;div class=&quot;admonition attention&quot;&gt;&lt;p class=&quot;admonition-title&quot;&gt;说明 
-&lt;/p&gt;&lt;p&gt;仅用作学习交流，侵删。&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;课件&quot;&gt;&lt;a href=&quot;#课件&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="resource" scheme="http://pxoxq.github.io/categories/resource/"/>
-    
-    
-    <category term="硕士" scheme="http://pxoxq.github.io/tags/%E7%A1%95%E5%A3%AB/"/>
-    
-    <category term="课件" scheme="http://pxoxq.github.io/tags/%E8%AF%BE%E4%BB%B6/"/>
-    
-    <category term="电子教材" scheme="http://pxoxq.github.io/tags/%E7%94%B5%E5%AD%90%E6%95%99%E6%9D%90/"/>
-    
-    <category term="笔记" scheme="http://pxoxq.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo 指令</title>
-    <link href="http://pxoxq.github.io/pages/hexo/cmds"/>
-    <id>http://pxoxq.github.io/pages/hexo/cmds</id>
-    <published>2022-09-07T06:00:00.000Z</published>
-    <updated>2022-09-07T14:39:12.580Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;hexo init&lt;/li&gt;
-&lt;li&gt;hexo clean&lt;/li&gt;
-&lt;li&gt;hexo g | hexo generate&lt;/li&gt;
-&lt;li&gt;hexo s | hexo server&lt;/li&gt;
-&lt;li&gt;hexo d | hexo</summary>
-        
-      
-    
-    
-    
-    <category term="hexo" scheme="http://pxoxq.github.io/categories/hexo/"/>
-    
-    
-    <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
-    
-    <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
     
   </entry>
   
