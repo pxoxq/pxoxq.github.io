@@ -6,7 +6,7 @@
   <link href="http://pxoxq.github.io/atom.xml" rel="self"/>
   
   <link href="http://pxoxq.github.io/"/>
-  <updated>2022-09-25T06:09:46.743Z</updated>
+  <updated>2022-09-25T09:06:53.398Z</updated>
   <id>http://pxoxq.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SpringBoot2.4 开发流程+常规配置</title>
+    <link href="http://pxoxq.github.io/pages/springboot/quick-start"/>
+    <id>http://pxoxq.github.io/pages/springboot/quick-start</id>
+    <published>2022-09-25T09:00:58.000Z</published>
+    <updated>2022-09-25T09:06:53.398Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/a49c97a878a441d19e83483892dbd1fc.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、一些准备工作&quot;&gt;&lt;a href=&quot;#一、一些准备工作&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/tags/SpringBoot/"/>
+    
+    <category term="开发流程" scheme="http://pxoxq.github.io/tags/%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue3中路由的配置与使用</title>
@@ -187,9 +215,9 @@
     
     <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
     
-    <category term="配置" scheme="http://pxoxq.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
-    
     <category term="debug" scheme="http://pxoxq.github.io/tags/debug/"/>
+    
+    <category term="配置" scheme="http://pxoxq.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
     
   </entry>
   
@@ -315,7 +343,7 @@
     <link href="http://pxoxq.github.io/pages/springboot/use-druid"/>
     <id>http://pxoxq.github.io/pages/springboot/use-druid</id>
     <published>2022-09-08T15:33:05.000Z</published>
-    <updated>2022-09-08T15:48:35.138Z</updated>
+    <updated>2022-09-25T09:03:22.330Z</updated>
     
     
       
@@ -329,7 +357,7 @@
     
     
     
-    <category term="springboot" scheme="http://pxoxq.github.io/categories/springboot/"/>
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/categories/SpringBoot/"/>
     
     
     <category term="SpringBoot" scheme="http://pxoxq.github.io/tags/SpringBoot/"/>
@@ -394,11 +422,11 @@
     <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
     
     
+    <category term="python" scheme="http://pxoxq.github.io/tags/python/"/>
+    
     <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="mongodb" scheme="http://pxoxq.github.io/tags/mongodb/"/>
-    
-    <category term="python" scheme="http://pxoxq.github.io/tags/python/"/>
     
   </entry>
   
@@ -423,9 +451,9 @@
     <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
     
     
-    <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
     <category term="python" scheme="http://pxoxq.github.io/tags/python/"/>
+    
+    <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="MySQL" scheme="http://pxoxq.github.io/tags/MySQL/"/>
     
@@ -453,11 +481,11 @@
     <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
     
     
-    <category term="mysql" scheme="http://pxoxq.github.io/tags/mysql/"/>
-    
     <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
     
     <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    
+    <category term="mysql" scheme="http://pxoxq.github.io/tags/mysql/"/>
     
   </entry>
   
@@ -538,9 +566,9 @@
     
     <category term="nodejs" scheme="http://pxoxq.github.io/tags/nodejs/"/>
     
-    <category term="安装" scheme="http://pxoxq.github.io/tags/%E5%AE%89%E8%A3%85/"/>
-    
     <category term="踩坑" scheme="http://pxoxq.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
+    
+    <category term="安装" scheme="http://pxoxq.github.io/tags/%E5%AE%89%E8%A3%85/"/>
     
   </entry>
   
@@ -566,34 +594,6 @@
     
     <category term="Git" scheme="http://pxoxq.github.io/categories/Git/"/>
     
-    
-    <category term="Git" scheme="http://pxoxq.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git指令</title>
-    <link href="http://pxoxq.github.io/pages/git/cmds"/>
-    <id>http://pxoxq.github.io/pages/git/cmds</id>
-    <published>2022-09-07T14:02:50.000Z</published>
-    <updated>2022-09-07T14:09:27.648Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;&lt;font color=&quot;tomato&quot; size=&quot;4&quot; face=&quot;宋体&quot;&gt;&lt;b&gt;察看命令的参数&lt;br&gt;&lt;code&gt;cmd --help&lt;/code&gt;&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;&lt;font color=&quot;tomato&quot; size=&quot;4&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Git" scheme="http://pxoxq.github.io/categories/Git/"/>
-    
-    
-    <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
     
     <category term="Git" scheme="http://pxoxq.github.io/tags/Git/"/>
     
