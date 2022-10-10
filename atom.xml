@@ -6,7 +6,7 @@
   <link href="http://pxoxq.github.io/atom.xml" rel="self"/>
   
   <link href="http://pxoxq.github.io/"/>
-  <updated>2022-09-25T09:06:53.398Z</updated>
+  <updated>2022-10-10T15:01:25.790Z</updated>
   <id>http://pxoxq.github.io/</id>
   
   <author>
@@ -15,6 +15,181 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA 设置默认Maven、JDK</title>
+    <link href="http://pxoxq.github.io/pages/idea/config4maven-java"/>
+    <id>http://pxoxq.github.io/pages/idea/config4maven-java</id>
+    <published>2022-10-10T14:59:06.000Z</published>
+    <updated>2022-10-10T15:01:25.790Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一、修改默认JDK&quot;&gt;&lt;a href=&quot;#一、修改默认JDK&quot; class=&quot;headerlink&quot; title=&quot;一、修改默认JDK&quot;&gt;&lt;/a&gt;一、修改默认JDK&lt;/h2&gt;&lt;h3 id=&quot;1、-文件、新项目设置、结构&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="IDEA" scheme="http://pxoxq.github.io/categories/IDEA/"/>
+    
+    
+    <category term="IDEA" scheme="http://pxoxq.github.io/tags/IDEA/"/>
+    
+    <category term="Config" scheme="http://pxoxq.github.io/tags/Config/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jar包安装处Windows自启动服务</title>
+    <link href="http://pxoxq.github.io/pages/springboot/jar2service"/>
+    <id>http://pxoxq.github.io/pages/springboot/jar2service</id>
+    <published>2022-10-10T14:55:21.000Z</published>
+    <updated>2022-10-10T15:01:54.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/cc632f1e67584498bc3a17c49d52ad40.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、下载WinSW-exe工具&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/tags/SpringBoot/"/>
+    
+    <category term="部署" scheme="http://pxoxq.github.io/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+    <category term="Web" scheme="http://pxoxq.github.io/tags/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows关闭某端口</title>
+    <link href="http://pxoxq.github.io/pages/dev/kill-port"/>
+    <id>http://pxoxq.github.io/pages/dev/kill-port</id>
+    <published>2022-10-10T14:52:55.000Z</published>
+    <updated>2022-10-10T14:54:32.821Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/7c43a4646ae64d4e83f6a0a2288113cd.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;1、找到端口对应pid&quot;&gt;&lt;a href=&quot;#1、找到端口对应pid&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Dev" scheme="http://pxoxq.github.io/categories/Dev/"/>
+    
+    
+    <category term="Windows指令" scheme="http://pxoxq.github.io/tags/Windows%E6%8C%87%E4%BB%A4/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot中使用Knife4J</title>
+    <link href="http://pxoxq.github.io/pages/springboot/use-knife4j"/>
+    <id>http://pxoxq.github.io/pages/springboot/use-knife4j</id>
+    <published>2022-10-10T14:49:13.000Z</published>
+    <updated>2022-10-10T14:51:31.175Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/8289be3876f640a5bfe97306a03f9e2e.png&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;一、引入依赖&quot;&gt;&lt;a href=&quot;#一、引入依赖&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/categories/SpringBoot/"/>
+    
+    
+    <category term="SpringBoot" scheme="http://pxoxq.github.io/tags/SpringBoot/"/>
+    
+    <category term="Knife4J" scheme="http://pxoxq.github.io/tags/Knife4J/"/>
+    
+    <category term="API" scheme="http://pxoxq.github.io/tags/API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>NPM常用指令梳理</title>
+    <link href="http://pxoxq.github.io/pages/nodejs/cmds"/>
+    <id>http://pxoxq.github.io/pages/nodejs/cmds</id>
+    <published>2022-10-10T14:38:37.000Z</published>
+    <updated>2022-10-10T14:41:37.282Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img-blog.csdnimg.cn/5273ec133b9a429185d6a475469ad1df.png&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&quot;一、镜像、其他配置&quot;&gt;&lt;a href=&quot;#一、镜像、其他配置&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="nodejs" scheme="http://pxoxq.github.io/categories/nodejs/"/>
+    
+    
+    <category term="nodejs" scheme="http://pxoxq.github.io/tags/nodejs/"/>
+    
+    <category term="npm" scheme="http://pxoxq.github.io/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于我</title>
+    <link href="http://pxoxq.github.io/pages/aboutme/about-me"/>
+    <id>http://pxoxq.github.io/pages/aboutme/about-me</id>
+    <published>2022-09-25T09:15:06.000Z</published>
+    <updated>2022-10-10T14:11:53.668Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;加载中。。。&quot;&gt;&lt;a href=&quot;#加载中。。。&quot; class=&quot;headerlink&quot; title=&quot;加载中。。。&quot;&gt;&lt;/a&gt;加载中。。。&lt;/h2&gt;&lt;!-- ## 教育经历
+
+
+
+## 项目经历
+
+
+## 个人成就</summary>
+        
+      
+    
+    
+    
+    <category term="aboutMe" scheme="http://pxoxq.github.io/categories/aboutMe/"/>
+    
+    
+    <category term="aboutMe" scheme="http://pxoxq.github.io/tags/aboutMe/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringBoot2.4 开发流程+常规配置</title>
@@ -166,7 +341,7 @@
     <link href="http://pxoxq.github.io/pages/front-end/usefull-websites"/>
     <id>http://pxoxq.github.io/pages/front-end/usefull-websites</id>
     <published>2022-09-25T05:51:26.000Z</published>
-    <updated>2022-09-25T05:53:44.787Z</updated>
+    <updated>2022-10-10T14:14:56.597Z</updated>
     
     
       
@@ -375,7 +550,7 @@
     <link href="http://pxoxq.github.io/pages/python/useanaconda"/>
     <id>http://pxoxq.github.io/pages/python/useanaconda</id>
     <published>2022-09-07T15:23:15.000Z</published>
-    <updated>2022-09-07T15:28:08.506Z</updated>
+    <updated>2022-10-10T14:14:02.082Z</updated>
     
     
       
@@ -422,180 +597,11 @@
     <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
     
     
-    <category term="python" scheme="http://pxoxq.github.io/tags/python/"/>
-    
     <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
     
     <category term="mongodb" scheme="http://pxoxq.github.io/tags/mongodb/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Pymysql的基本使用</title>
-    <link href="http://pxoxq.github.io/pages/db/usepymysql"/>
-    <id>http://pxoxq.github.io/pages/db/usepymysql</id>
-    <published>2022-09-07T15:02:11.000Z</published>
-    <updated>2022-09-07T15:04:55.302Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;连接&quot;&gt;&lt;a href=&quot;#连接&quot; class=&quot;headerlink&quot; title=&quot;连接&quot;&gt;&lt;/a&gt;连接&lt;/h2&gt;&lt;pre class=&quot;line-numbers language-python&quot; data-language=&quot;python&quot;&gt;&lt;code</summary>
-        
-      
-    
-    
-    
-    <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
-    
-    
     <category term="python" scheme="http://pxoxq.github.io/tags/python/"/>
-    
-    <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="MySQL" scheme="http://pxoxq.github.io/tags/MySQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MySQL常用指令</title>
-    <link href="http://pxoxq.github.io/pages/db/mysqlcmds"/>
-    <id>http://pxoxq.github.io/pages/db/mysqlcmds</id>
-    <published>2022-09-07T14:52:11.000Z</published>
-    <updated>2022-09-07T15:03:25.569Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;开启、关闭服务&quot;&gt;&lt;a href=&quot;#开启、关闭服务&quot; class=&quot;headerlink&quot; title=&quot;开启、关闭服务&quot;&gt;&lt;/a&gt;开启、关闭服务&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="db" scheme="http://pxoxq.github.io/categories/db/"/>
-    
-    
-    <category term="指令" scheme="http://pxoxq.github.io/tags/%E6%8C%87%E4%BB%A4/"/>
-    
-    <category term="数据库" scheme="http://pxoxq.github.io/tags/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    
-    <category term="mysql" scheme="http://pxoxq.github.io/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信小程序中使用阿里图标库</title>
-    <link href="http://pxoxq.github.io/pages/wxminiprogram/useiconfont"/>
-    <id>http://pxoxq.github.io/pages/wxminiprogram/useiconfont</id>
-    <published>2022-09-07T14:43:16.000Z</published>
-    <updated>2022-09-07T14:47:59.300Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;一、导入-wxss方式&quot;&gt;&lt;a href=&quot;#一、导入-wxss方式&quot; class=&quot;headerlink&quot; title=&quot;一、导入 wxss方式&quot;&gt;&lt;/a&gt;一、导入</summary>
-        
-      
-    
-    
-    
-    <category term="wxminiprogram" scheme="http://pxoxq.github.io/categories/wxminiprogram/"/>
-    
-    
-    <category term="微信小程序" scheme="http://pxoxq.github.io/tags/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
-    
-    <category term="iconfont" scheme="http://pxoxq.github.io/tags/iconfont/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>nodejs配置、踩坑小记</title>
-    <link href="http://pxoxq.github.io/pages/nodejs/config"/>
-    <id>http://pxoxq.github.io/pages/nodejs/config</id>
-    <published>2022-09-07T14:32:55.000Z</published>
-    <updated>2022-09-07T14:37:21.537Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;淘宝镜像、cnpm&quot;&gt;&lt;a href=&quot;#淘宝镜像、cnpm&quot; class=&quot;headerlink&quot; title=&quot;淘宝镜像、cnpm&quot;&gt;&lt;/a&gt;淘宝镜像、cnpm&lt;/h2&gt;&lt;h3 id=&quot;镜像&quot;&gt;&lt;a href=&quot;#镜像&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="nodejs" scheme="http://pxoxq.github.io/categories/nodejs/"/>
-    
-    
-    <category term="nodejs" scheme="http://pxoxq.github.io/tags/nodejs/"/>
-    
-    <category term="踩坑" scheme="http://pxoxq.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>nodejs安装、踩坑</title>
-    <link href="http://pxoxq.github.io/pages/nodejs/install"/>
-    <id>http://pxoxq.github.io/pages/nodejs/install</id>
-    <published>2022-09-07T14:28:46.000Z</published>
-    <updated>2022-09-07T14:31:46.556Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;1、下载nodejs&quot;&gt;&lt;a href=&quot;#1、下载nodejs&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="nodejs" scheme="http://pxoxq.github.io/categories/nodejs/"/>
-    
-    
-    <category term="nodejs" scheme="http://pxoxq.github.io/tags/nodejs/"/>
-    
-    <category term="踩坑" scheme="http://pxoxq.github.io/tags/%E8%B8%A9%E5%9D%91/"/>
-    
-    <category term="安装" scheme="http://pxoxq.github.io/tags/%E5%AE%89%E8%A3%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git cz的配置与使用</title>
-    <link href="http://pxoxq.github.io/pages/git/gitcz"/>
-    <id>http://pxoxq.github.io/pages/git/gitcz</id>
-    <published>2022-09-07T14:22:45.000Z</published>
-    <updated>2022-09-16T12:08:09.956Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;h2 id=&quot;1、安装-nvm&quot;&gt;&lt;a href=&quot;#1、安装-nvm&quot; class=&quot;headerlink&quot; title=&quot;1、安装 nvm&quot;&gt;&lt;/a&gt;1、安装 nvm&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;链接地址：&lt;br&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="Git" scheme="http://pxoxq.github.io/categories/Git/"/>
-    
-    
-    <category term="Git" scheme="http://pxoxq.github.io/tags/Git/"/>
     
   </entry>
   
