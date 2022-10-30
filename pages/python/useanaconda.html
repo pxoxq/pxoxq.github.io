@@ -487,21 +487,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-10-10
+                    2022-10-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    561
+                    676
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    3 分
                 </div>
                 
 
@@ -541,6 +541,22 @@ conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/m
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud//pytorch/
 conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/
 conda config --set show_channel_urls yes<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p>或者修改配置文件如下：</p>
+<pre class="line-numbers language-yaml" data-language="yaml"><code class="language-yaml"><span class="token key atrule">channels</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> defaults
+<span class="token key atrule">show_channel_urls</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">auto_activate_base</span><span class="token punctuation">:</span> <span class="token boolean important">false</span>
+<span class="token key atrule">default_channels</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r
+  <span class="token punctuation">-</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
+<span class="token key atrule">custom_channels</span><span class="token punctuation">:</span>
+  <span class="token key atrule">conda-forge</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  <span class="token key atrule">msys2</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  <span class="token key atrule">bioconda</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  <span class="token key atrule">menpo</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  <span class="token key atrule">pytorch</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud
+  <span class="token key atrule">simpleitk</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//mirrors.tuna.tsinghua.edu.cn/anaconda/cloud<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 <h2 id="2-查看安装源"><a href="#2-查看安装源" class="headerlink" title="2 查看安装源"></a>2 查看安装源</h2><pre class="line-numbers language-none"><code class="language-none">conda config --show channels<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
@@ -555,7 +571,8 @@ conda config --set show_channel_urls yes<span aria-hidden="true" class="line-num
 <h2 id="7-32-amp-64-位切换"><a href="#7-32-amp-64-位切换" class="headerlink" title="7  32 &amp; 64 位切换"></a>7  32 &amp; 64 位切换</h2><pre class="line-numbers language-none"><code class="language-none">set CONDA_FORCE_32BIT=1 ## 切换到32位
 set CONDA_FORCE_32BIT=0 ## 切换到64位<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 
-<h2 id="8-创建一个python2-7-名为xxx的虚拟环境"><a href="#8-创建一个python2-7-名为xxx的虚拟环境" class="headerlink" title="8 创建一个python2.7 名为xxx的虚拟环境"></a>8 创建一个python2.7 名为xxx的虚拟环境</h2><pre class="line-numbers language-none"><code class="language-none">conda create -n xxx python=2.7 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="8-创建一个python2-7-名为xxx的虚拟环境"><a href="#8-创建一个python2-7-名为xxx的虚拟环境" class="headerlink" title="8 创建一个python2.7 名为xxx的虚拟环境"></a>8 创建一个python2.7 名为xxx的虚拟环境</h2><pre class="line-numbers language-none"><code class="language-none">conda create -n xxx python=2.7 
+conda create -n new_env --clone exists_env  // 克隆一个存在的环境<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
 <blockquote>
 <p>如要创建32位的python环境，先设置为32位在创建环境，这样创建好的环境即为32位的Python环境</p>
 </blockquote>
@@ -1206,7 +1223,7 @@ conda config --remove envs_dirs your_dir<span aria-hidden="true" class="line-num
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">19.5k</span>&nbsp;字
+                class="white-color">19.6k</span>&nbsp;字
             
             
             

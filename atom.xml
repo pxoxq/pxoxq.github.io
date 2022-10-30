@@ -44,11 +44,11 @@
   </entry>
   
   <entry>
-    <title>Jar包安装处Windows自启动服务</title>
+    <title>Jar包安装成Windows自启动服务</title>
     <link href="http://pxoxq.github.io/pages/springboot/jar2service"/>
     <id>http://pxoxq.github.io/pages/springboot/jar2service</id>
     <published>2022-10-10T14:55:21.000Z</published>
-    <updated>2022-10-10T15:01:54.847Z</updated>
+    <updated>2022-10-30T08:11:15.944Z</updated>
     
     
       
@@ -390,9 +390,9 @@
     
     <category term="hexo" scheme="http://pxoxq.github.io/tags/hexo/"/>
     
-    <category term="debug" scheme="http://pxoxq.github.io/tags/debug/"/>
-    
     <category term="配置" scheme="http://pxoxq.github.io/tags/%E9%85%8D%E7%BD%AE/"/>
+    
+    <category term="debug" scheme="http://pxoxq.github.io/tags/debug/"/>
     
   </entry>
   
@@ -550,7 +550,7 @@
     <link href="http://pxoxq.github.io/pages/python/useanaconda"/>
     <id>http://pxoxq.github.io/pages/python/useanaconda</id>
     <published>2022-09-07T15:23:15.000Z</published>
-    <updated>2022-10-10T14:14:02.082Z</updated>
+    <updated>2022-10-19T01:53:59.520Z</updated>
     
     
       
